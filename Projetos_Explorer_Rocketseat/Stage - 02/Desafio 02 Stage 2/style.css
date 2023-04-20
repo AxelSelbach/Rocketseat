@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+
+  width: 1280px;
+  height: 720px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+.page {
+  margin: 0 auto;
+  padding-top: 65px;
+  padding-left: 120px;
+  padding-right: 150px;
+  padding-bottom: 0px;
+
+}
+
+/*header*/
+
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+  margin-bottom: 15px;
+
+}
+
+#logo {
+  margin-right: 635px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#navSup{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+#home,#sobre, #treinar {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #1F1534;
+
+  padding-left: 48px;
+}
+
+#sobre, #treinar {
+  opacity: 0.5;
+}
+
+/*Texto central, imagem e botão*/
+
+#hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 55px 0 80px;
+}
+
+
+h1 {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 56px;
+  mix-blend-mode: normal;
+}
+
+span {
+  color: #89C5CC;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+
+  color: #7D7987;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+
+  position: absolute;
+  width: 182px;
+  height: 56px;
+  left: 120px;
+  top: 473px;
+
+  margin-top: 40px;
+
+  background: #69B99D;
+  border-radius: 4px;
+  border: none;
+
+  transition: filter 0.5s;
+}
+
+.button:hover {
+  filter:brightness(1.2);
+  cursor: pointer;
+}
+
+/*Footer e bolinhas*/
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  mix-blend-mode: normal;
+}
+#insta {
+  margin-left: 5px;;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right:0px;
+}
